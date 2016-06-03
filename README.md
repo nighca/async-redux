@@ -6,6 +6,8 @@ Solution for async state management in React + Redux application
 
 Use async-redux with [react-redux](https://github.com/reactjs/react-redux), [reselect](https://github.com/reactjs/reselect).
 
+async-redux provides a middleware, a reducer creator, a selector creator & two helper methods: `getData`, `isFetching`. It affects many parts in your application: create store, create actions, create reducers, create selectors & prepare props for components.
+
 ### middleware
 
 It works like [redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware) as a middleware.
